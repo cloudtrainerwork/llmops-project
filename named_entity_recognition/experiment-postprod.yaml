@@ -4,7 +4,7 @@ flow: flows/post-production-evaluation
 datasets:
 - name: named_entity_recognition_pp_eval
   source: data/production_log.jsonl
-  description: "This dataset is for post production evaluation. "
+  description: "This dataset is for post production evaluation."
   mappings:
     text: "${data.text}"
     entity_type: "${data.entity_type}"
