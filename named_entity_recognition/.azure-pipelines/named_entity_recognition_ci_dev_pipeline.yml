@@ -34,7 +34,7 @@ parameters:
 stages:
   - template: ../../.azure-pipelines/platform_ci_dev_pipeline.yml
     parameters:
-      RESOURCE_GROUP_NAME: $(rg_name) # Expected in llmops_platform_dev_vg
+      RESOURCE_GROUP_NAME: rg-user_hc3NTai # Expected in llmops_platform_dev_vg
       WORKSPACE_NAME: $(ws_name)      # Expected in llmops_platform_dev_vg
       KEY_VAULT_NAME: $(kv_name)      # Expected in llmops_platform_dev_vg
       exec_environment: ${{ parameters.env_name }}
